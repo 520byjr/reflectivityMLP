@@ -41,9 +41,9 @@ l_head    = ['Vp', 'Vs', 'Rho']
 file_in   = 'data/well_train.npy'
 file_test = 'data/well_test.npy'
 
-#estimator = MLPRegressor() #SVR()
+estimator = MLPRegressor() #SVR()
 #estimator = linear_model.LinearRegression()
-estimator  = linear_model.SGDRegressor()
+#estimator  = linear_model.SGDRegressor()
 #=====================1=====================
 #            load data
 #===========================================
