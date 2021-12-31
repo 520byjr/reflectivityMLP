@@ -18,3 +18,4 @@ This implementation uses the **scikit-learn** machine learning package, as well 
 2) Run HW2_reflectivity.py to train the model and evaluate the model performance on validation and testing data. This implementation used a Multi-Layer-Perceptron for which weights and biases are adjusted iteratively through standard back-projection of errors (see change in cost function with epochs over training data in plots/well_log_learning_curve.png). 
 
 The most basic MLP already achieve good results with R2-scores of about 0.94 which can be increased to 0.99 through hyperparameter tuning.
+Additional implementations include LinearRegression() and  SGDRegressor() which also show satifacory performance.
